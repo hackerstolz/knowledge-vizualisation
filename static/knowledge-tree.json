@@ -1,0 +1,145 @@
+{
+  "name": "The Complete Programmer",
+  "children": [
+    {
+      "name": "Soft Skills",
+      "children": [
+        { "name": "Academy Manifest" },
+        { "name": "Feedback" },
+        { "name": "Train the Trainer" },
+        { "name": "Teamwork" },
+        { "name": "Conflict Solving" },
+        { "name": "Communication" },
+        { "name": "Effective Meetings" }
+      ]
+    },
+    {
+      "name": "Fundamentals",
+      "children": [
+        { "name": "Agile Development" },
+        { "name": "Office Desk" },
+        { "name": "Portfolios" },
+        { "name": "Version Control" },
+        { "name": "Network 101" },
+        { "name": "Internet 101" },
+        { "name": "Computer 101" }
+      ]
+    },
+    {
+      "name": "Programming",
+      "children": [
+        { "name": "Programming Paradigms" },
+        { "name": "Interpreter" },
+        { "name": "Compiler" },
+        { "name": "Data Structures" },
+        { "name": "Algorithms" },
+        {
+          "name": "Web Development",
+          "children": [
+            { "name": "HTML, CSS & JS 101" },
+            { "name": "Typed JavaScript" },
+            { "name": "Node" },
+            { "name": "The npm Ecosystem" },
+            { "name": "Build Tools" },
+            { "name": "WebAssembly" },
+            { "name": "Advanced Web APIs" },
+            {
+              "name": "Web Development Paradigms",
+              "children": [
+                { "name": "Progressive Web Apps" },
+                { "name": "Server Side Rendering" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Data Protection",
+      "children": [{ "name": "GDPR" }]
+    },
+    {
+      "name": "Security",
+      "children": [
+        { "name": "Social Engineering" },
+        { "name": "Buffer Overfows" },
+        { "name": "Integer Overfolws" },
+        { "name": "Code Injection" },
+        { "name": "Race Conditions" },
+        { "name": "Privilige Confusion" }
+      ]
+    },
+    {
+      "name": "Networks",
+      "children": [
+        { "name": "Protocols" },
+        { "name": "Implementation" },
+        { "name": "Institutions" }
+      ]
+    },
+    {
+      "name": "Cryptography",
+      "children": [
+        { "name": "Symmetric Cryptosystems" },
+        { "name": "Asymmetric Cryptosystems" },
+        { "name": "Hash Functions" },
+        {
+          "name": "Signatures",
+          "children": [
+            { "name": "Digital Signatures" },
+            { "name": "Electronic Signatures" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UX Design",
+      "children": []
+    },
+    {
+      "name": "Data Vizualisation",
+      "children": []
+    },
+    {
+      "name": "Mathematics",
+      "children": []
+    },
+    {
+      "name": "System Administration",
+      "children": []
+    },
+    {
+      "name": "Hardware Architecture",
+      "children": []
+    },
+    {
+      "name": "Robotics",
+      "children": []
+    },
+    {
+      "name": "Gaming",
+      "children": []
+    },
+    {
+      "name": "Graphics & Simulations",
+      "children": []
+    },
+    {
+      "name": "Machine Learning",
+      "children": []
+    },
+    {
+      "name": "Operating Systems",
+      "children": []
+    },
+    {
+      "name": "Testing",
+      "children": [
+        { "name": "File Systems" },
+        { "name": "System Calls" },
+        { "name": "Scheduling" },
+        { "name": "Multi-Threading" }
+      ]
+    }
+  ]
+}
