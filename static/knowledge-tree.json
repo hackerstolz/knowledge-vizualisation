@@ -1,5 +1,5 @@
 {
-  "name": "The Complete Programmer",
+  "name": "The Future Programmer",
   "children": [
     {
       "name": "Soft Skills",
@@ -19,7 +19,10 @@
         { "name": "Agile Development" },
         { "name": "Office Desk" },
         { "name": "Portfolios" },
-        { "name": "Version Control" },
+        {
+          "name": "Version Control",
+          "children": [{ "name": "Git" }, { "name": "Git FLow" }]
+        },
         { "name": "Network 101" },
         { "name": "Internet 101" },
         { "name": "Computer 101" }
@@ -33,6 +36,18 @@
         { "name": "Compiler" },
         { "name": "Data Structures" },
         { "name": "Algorithms" },
+        { "name": "Tools", "children": [{ "name": "Git" }] },
+        {
+          "name": "Programming Languages",
+          "children": [
+            { "name": "Python" },
+            { "name": "Rust" },
+            { "name": "JavaScript" },
+            { "name": "Java" },
+            { "name": "Scala" },
+            { "name": "Go" }
+          ]
+        },
         {
           "name": "Web Development",
           "children": [
@@ -44,12 +59,30 @@
             { "name": "WebAssembly" },
             { "name": "Advanced Web APIs" },
             {
+              "name": "Frameworks",
+              "children": [
+                { "name": "React" },
+                { "name": "Angular" },
+                { "name": "Vue" },
+                { "name": "OpenUI5" }
+              ]
+            },
+            {
               "name": "Web Development Paradigms",
               "children": [
                 { "name": "Progressive Web Apps" },
                 { "name": "Server Side Rendering" }
               ]
             }
+          ]
+        },
+        {
+          "name": "Databases",
+          "children": [
+            { "name": "MongoDB" },
+            { "name": "Posgres" },
+            { "name": "Fauna DB" },
+            { "name": "MySQL" }
           ]
         }
       ]

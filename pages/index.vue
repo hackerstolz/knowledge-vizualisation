@@ -3,10 +3,16 @@
     <client-only>
       <!-- this component will only be rendered on client-side -->
       <tree
+        class="tree"
         :data="tree"
         node-text="name"
+        type="cluster"
         layout-type="circular"
-        duration="100"
+        link-layout="bezier"
+        :leaf-text-margin="8"
+        :node-text-margin="8"
+        :radius="3"
+        :duration="0"
       ></tree>
 
       <!-- loading indicator, rendered on server-side -->
@@ -60,7 +66,11 @@ export default {
 
 <style scoped lang="scss">
 .content {
+  overflow: hidden;
   height: 100vh;
+  // .tree {
+  //   // ...
+  // }
 }
 </style>
 
